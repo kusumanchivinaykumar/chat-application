@@ -27,6 +27,11 @@ app.use(
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
+// Add a default route for the root URL
+app.get("/", (req, res) => {
+  res.send("Backend is running successfully!");
+});
+
 server.listen(PORT, () => {
   console.log("server running on port " + PORT);
   connectDB();
