@@ -1,12 +1,12 @@
-# NexusChat
+# ChatLoop
 
-NexusChat is a professional real-time chat application designed for seamless communication.
+ChatLoop is a professional real-time chat application designed for seamless communication.
 
 ---
 
 ## Overview
 
-NexusChat allows users to create an account and instantly connect with other registered users. It features real-time messaging, status updates, and a clean, modern interface.
+ChatLoop allows users to create an account and instantly connect with other registered users. It features real-time messaging, status updates, and a clean, modern interface.
 
 ---
 
@@ -56,9 +56,3 @@ NexusChat allows users to create an account and instantly connect with other reg
 
 *   **Frontend**: React, Tailwind CSS, Vite
 *   **Real-time**: Socket.IO Client
-
----
-
-## License
-
-This project is proprietary. All rights reserved.
